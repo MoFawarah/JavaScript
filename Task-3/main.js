@@ -19,10 +19,10 @@ let changeFlag = document.getElementById ("slection")
 
  changeFlag.addEventListener ('change' , function(){
    if (changeFlag.value === "jordan")
-    imageFlag.src = "jordanFlag.jpeg";
+    imageFlag.src = "Images/jordanFlag.jpeg";
 
    else if (changeFlag.value === "palestine")
-    imageFlag.src = "palstineFlag.jpeg"
+    imageFlag.src = "Images/palstineFlag.jpeg"
  })
 
 
