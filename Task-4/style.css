@@ -1,0 +1,66 @@
+
+
+
+/* task #1 */
+h1 {
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+/* task #2 */
+
+#divContainer {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 200px;
+    text-align: center;
+}
+
+
+
+#textarea {
+   
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+
+#textarea p {
+    padding: 10px;
+    margin: 0;
+    font-size: 15px;
+}
+
+#password, #repeatPassword{
+
+    width: 100px;
+    
+}
+
+.passwordLable {
+    display: inline-block;
+    width: 200px;
+    font-size: 1.5em;
+    font-weight: 700;
+   
+}
+
+#submit {
+    
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+
+    
+}

@@ -123,7 +123,7 @@ console.log("The returned value from pop is " + B + ", So pop also returns the l
 
 //task_8
 
-let arrayUnSorted = [-4, 1, 0, 4, 2, -6, 10, 8, -2];
+let arrayUnSorted = [ 0, 48,  10, 8,9];
 
 function compareFunction (a, b) {
 
@@ -135,7 +135,7 @@ function compareFunction (a, b) {
     return a-b;
 }
 
-let arraySorted = arrayUnSorted.sort (compareFunction);
+let arraySorted = arrayUnSorted.sort();
 console.log (arraySorted);
 
 
