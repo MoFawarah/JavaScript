@@ -1,0 +1,32 @@
+
+
+{
+
+    "name" : "Mohammad",
+    "age" : 25,
+    "city" : "Ajloun",
+    "Skills" : ["HTML", "CSS", "JS"],
+    "hobbies" : ["Soccer", "Taekwondo", "Rope Jumping"],
+    "isMarried" : false,
+    "isDead" : true,
+    "favoriteNum" : 7,
+    "friends" : [
+        {
+          "name": "Alice",
+          "favNum": 42,
+          "isMarried": false
+        },
+        {
+          "name": "Bob",
+          "favNum": 27,
+          "isMarried": true
+        },
+        {
+          "name": "Charlie",
+          "favNum": 15,
+          "isMarried": false
+        }
+      ]
+
+
+}
