@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <label for="firstname"> First Name :</label> <br>
+        <input type="text" value="" id="firstnameinput" onkeyup="validateFName()"> <span id="firstNameError"></span>  <br><br>
+
+        <label for="lastname"> Last Name :</label> <br>
+        <input type="text" id="lastnameinput" onkeyup="validateLName()" > <span id="lasttNameError"></span> <br><br>
+
+
+        <!-- oninput="birthdayValidate()" -->
+
+        <label for="Bdate">Birthday date :</label> <br>
+        <input type="text" id="birthdayInput" > <span id="spBdate"></span> <br><br>
+
+        <label for="Email">Your Email :</label> <br>
+        <input type="email" id="Emailinput" onchange="validateEmail()"> <span id="spEmail"></span> <br><br>
+
+        <label for="ConEmail"> ConEmail :</label> <br>
+        <input type="email" id="ConEmailinput"><br><br>
+
+        <label for="Password"> Password :</label> <br>
+        <input type="password" id="Passwordinput"><br><br>
+
+        <label for="ConPassword">Con Password :</label> <br>
+        <input type="password" id="ConPasswordinput"><br><br>
+
+
+
+
+
+    <script src="main03.js"></script>
+</body>
+</html>

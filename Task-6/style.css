@@ -1,0 +1,23 @@
+
+#select {
+    border: none;
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+
+    border-radius: 10px;
+    color: white;
+
+    font-weight: 700;
+
+    margin: 20px 0 20px 20px;
+    
+}
+
+#image {
+    display: block;
+
+    width: 200px;
+    height: 200px;
+
+    margin-left: 20px;
+}
